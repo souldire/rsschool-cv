@@ -24,6 +24,25 @@
 - **AI-инструменты:** Cursor, Copilot, OpenAI, Claude, Gemini, MCP-серверы и кастомные интеграции
 - **Прочее:** Telegram- и Discord-боты, браузерные расширения
 
+## Пример кода
+
+Решение задачи [«Find the odd int»](https://www.codewars.com/kata/54da5a58ea159efa38000836) (6 kyu) с Codewars:
+
+```javascript
+function findOdd(A) {
+  const counts = {};
+  for (const n of A) {
+    counts[n] = (counts[n] || 0) + 1;
+  }
+  for (const n in counts) {
+    if (counts[n] % 2 === 1) {
+      return Number(n);
+    }
+  }
+  return 0;
+}
+```
+
 ## Опыт работы
 
 Серьёзная разработка — а не мелкая автоматизация и простые лендинги — началась для меня с марта 2025 года. Всё, что было раньше, — путь к ней.
