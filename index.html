@@ -43,6 +43,22 @@
         </ul>
       </section>
       <section class="section">
+        <h2>Пример кода</h2>
+        <p>Решение задачи <a href="https://www.codewars.com/kata/54da5a58ea159efa38000836">«Find the odd int»</a> (6 kyu) с Codewars:</p>
+        <pre><code>function findOdd(A) {
+  const counts = {};
+  for (const n of A) {
+    counts[n] = (counts[n] || 0) + 1;
+  }
+  for (const n in counts) {
+    if (counts[n] % 2 === 1) {
+      return Number(n);
+    }
+  }
+  return 0;
+}</code></pre>
+      </section>
+      <section class="section">
         <h2>Опыт работы</h2>
         <p>Серьёзная разработка — а не мелкая автоматизация и простые лендинги — началась для меня с марта 2025 года. Всё, что было раньше, — путь к ней.</p>
         <article class="job">

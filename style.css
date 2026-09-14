@@ -119,6 +119,22 @@ a:hover {
   min-width: 170px;
 }
 
+pre {
+  margin-top: 12px;
+  padding: 16px 20px;
+  background-color: var(--dark);
+  color: #ecf0f5;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+code {
+  font-family: inherit;
+}
+
 .job {
   margin-top: 24px;
 }
