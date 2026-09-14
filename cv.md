@@ -5,6 +5,7 @@
 - **Телефон:** +7 908 588-03-95
 - **E-mail:** [prod@souldire.xyz](mailto:prod@souldire.xyz)
 - **Telegram:** [@souldire](https://t.me/souldire)
+- **Discord:** razdva34
 - **GitHub:** [souldire](https://github.com/souldire)
 - **Location:** Челябинск, Россия
 
