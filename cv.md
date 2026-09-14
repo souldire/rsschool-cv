@@ -16,12 +16,12 @@
 
 ## Навыки
 
-- HTML, CSS (адаптивная вёрстка)
-- JavaScript, TypeScript (базовый уровень)
-- React, Node.js (Express)
-- Python (Django) — знаком на уровне pet-проектов
-- Git, GitHub
-- Figma, VS Code
+- **Frontend:** HTML, CSS (адаптивная вёрстка), React, Next.js, Vite, Tailwind CSS, React Router, TanStack Query
+- **Backend & DB:** Node.js (TypeScript), Express, NestJS, Django (Python), Prisma, TypeORM, PostgreSQL, MongoDB, Firebase
+- **Языки:** TypeScript, JavaScript, Python, C#
+- **DevOps и инструменты:** Git (GitHub, GitLab), Docker, CI/CD, Vercel, Figma, VS Code
+- **AI-инструменты:** Cursor, Copilot, OpenAI, Claude, Gemini, MCP-серверы и кастомные интеграции
+- **Прочее:** Telegram- и Discord-боты, браузерные расширения
 
 ## Опыт работы
 
