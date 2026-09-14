@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мусин Александр — CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="photo" src="assets/photo.jpg" alt="Фото Мусина Александра" width="375" height="500">
+      <div class="header-info">
+        <h1>Мусин Александр</h1>
+        <p class="position">Разработчик, учусь на Fullstack-инженера в RS School</p>
+        <nav aria-label="Контакты">
+          <ul class="contacts">
+            <li><span class="label">Телефон:</span> <a href="tel:+79085880395">+7 908 588-03-95</a></li>
+            <li><span class="label">E-mail:</span> <a href="mailto:prod@souldire.xyz">prod@souldire.xyz</a></li>
+            <li><span class="label">Telegram:</span> <a href="https://t.me/souldire">@souldire</a></li>
+            <li><span class="label">Discord:</span> razdva34</li>
+            <li><span class="label">GitHub:</span> <a href="https://github.com/souldire">souldire</a></li>
+            <li><span class="label">Location:</span> Челябинск, Россия</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <h2>Краткая информация о себе</h2>
+        <p>Работаю разработчиком в продуктовой компании — пишу внутренние инструменты и интеграции. Со временем понял, что мне не хватает фундамента: системных знаний JavaScript, алгоритмов и инженерных практик, которые обычно дают не «боевые задачи», а полноценное обучение.</p>
+        <p>Прохожу курс RS School, чтобы закрыть эти пробелы и вырасти из разработчика, который «делает как получится», в инженера, который понимает, как и почему устроен код. Быстро учусь, не боюсь разбираться в чужом коде и спрашивать, когда чего-то не понимаю.</p>
+      </section>
+      <section class="section">
+        <h2>Навыки</h2>
+        <ul class="skills">
+          <li><span class="label">Frontend:</span> HTML, CSS (адаптивная вёрстка), React, Next.js, Vite, Tailwind CSS, React Router, TanStack Query</li>
+          <li><span class="label">Backend &amp; DB:</span> Node.js (TypeScript), Express, NestJS, Django (Python), Prisma, TypeORM, PostgreSQL, MongoDB, Firebase</li>
+          <li><span class="label">Языки:</span> TypeScript, JavaScript, Python, C#</li>
+          <li><span class="label">DevOps и инструменты:</span> Git (GitHub, GitLab), Docker, CI/CD, Vercel, Figma, VS Code</li>
+          <li><span class="label">AI-инструменты:</span> Cursor, Copilot, OpenAI, Claude, Gemini, MCP-серверы и кастомные интеграции</li>
+          <li><span class="label">Прочее:</span> Telegram- и Discord-боты, браузерные расширения</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2>Пример кода</h2>
+        <p>Решение задачи <a href="https://www.codewars.com/kata/54da5a58ea159efa38000836">«Find the odd int»</a> (6 kyu) с Codewars:</p>
+        <pre><code>function findOdd(A) {
+  const counts = {};
+  for (const n of A) {
+    counts[n] = (counts[n] || 0) + 1;
+  }
+  for (const n in counts) {
+    if (counts[n] % 2 === 1) {
+      return Number(n);
+    }
+  }
+  return 0;
+}</code></pre>
+      </section>
+      <section class="section">
+        <h2>Опыт работы</h2>
+        <p>Серьёзная разработка — а не мелкая автоматизация и простые лендинги — началась для меня с марта 2025 года. Всё, что было раньше, — путь к ней.</p>
+        <article class="job">
+          <h3>Fullstack-разработчик — «Красное &amp; Белое»</h3>
+          <p class="period">Март 2025 — настоящее время, Челябинск</p>
+          <p>«Красное &amp; Белое» — одна из крупнейших розничных сетей России (тысячи магазинов, продукты и напитки).</p>
+          <ul>
+            <li>Интеграция и поддержка решений с государственными системами маркировки и учёта «Честный Знак» и ЕГАИС: обработка данных, взаимодействие с API.</li>
+            <li>Разработка и поддержка веб-приложений, десктопных клиентов и браузерных расширений (Chrome/Chromium) с интеграцией баз данных.</li>
+            <li>Backend-сервисы и API на Node.js (TypeScript), интеграция сторонних сервисов и баз данных (включая Firebase).</li>
+            <li>Поддержка и развитие legacy-решений на C# с последующей миграцией на современные стеки (TypeScript, Python).</li>
+            <li>Проектирование и внедрение CI/CD-пайплайнов: сборка, тестирование, деплой (Docker, Vercel).</li>
+            <li>Создание и поддержка чат-ботов для Telegram и Discord с интеграцией API и real-time-взаимодействием.</li>
+            <li>Взаимодействие с бизнес-заказчиками: анализ требований, проектирование технических решений, code review, техническая документация.</li>
+            <li>Внедрение AI-инструментов в процесс разработки: генерация и рефакторинг кода, unit-тесты, документация, декомпозиция задач.</li>
+          </ul>
+          <p class="results-title">Ключевые результаты:</p>
+          <ul>
+            <li>Десктопный продукт на Python/PyQT для автоматизации работы с маркировкой («Честный Знак», ЕГАИС) и его перенос на новый стек (React, Django, PostgreSQL).</li>
+            <li>Frontend-приложения для внутренних бизнес-систем с интеграцией с API и базами данных.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <h3>Специалист по внедрению и сопровождению ПО — «Красное &amp; Белое»</h3>
+          <p class="period">Май 2022 — март 2024, Челябинск</p>
+          <ul>
+            <li>Разработка приложений для автоматизации бизнес-процессов на C# с веб-интерфейсами на React и интеграцией SQL-баз данных.</li>
+            <li>Backend-сервисы на Node.js (Express), Telegram-боты для уведомлений и автоматизации.</li>
+            <li>Внедрение и сопровождение 1С, техническая поддержка внутренних систем.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <h3>Менеджер ЕГАИС — «Красное &amp; Белое»</h3>
+          <p class="period">Август 2018 — май 2022, Челябинск</p>
+          <ul>
+            <li>Складской документооборот, техническая поддержка, автоматизация пользовательских процессов.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <h3>SEO-специалист — Vita-Travel</h3>
+          <p class="period">Ноябрь 2017 — апрель 2018, Челябинск</p>
+          <ul>
+            <li>SEO-продвижение и SMM, генерация контента, разработка идей продвижения.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <h3>Web-программист — «Вэбест»</h3>
+          <p class="period">Октябрь 2014 — декабрь 2016, Ярославская область</p>
+          <ul>
+            <li>Вёрстка страниц по шаблонам, поддержка сайтов, установка ImageCMS на макеты, наполнение и модерация контента.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="section">
+        <h2>Образование</h2>
+        <ul class="education">
+          <li><strong>Южно-Уральский государственный университет (НИУ), Челябинск</strong> — бакалавр, «Информатика и вычислительная техника», 2017</li>
+          <li><strong>RS School</strong> — курс Fullstack-инженерия (в процессе обучения)</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2>Английский язык</h2>
+        <p><strong>Уровень: B2 — Средне-продвинутый.</strong> Читаю техническую документацию, понимаю доклады, продолжаю практиковаться.</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/souldire">GitHub</a>
+      <span>© 2026</span>
+      <a href="https://rs.school/">
+        <img class="rss-logo" src="assets/rsschool-logo.svg" alt="Логотип курса RS School" width="64" height="64">
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
