@@ -4,3 +4,6 @@
 
 [CV в Markdown](https://souldire.github.io/rsschool-cv/cv)
 
+[CV в HTML](https://souldire.github.io/rsschool-cv/)
+
+
